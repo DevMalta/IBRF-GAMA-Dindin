@@ -12,10 +12,13 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
+    border: 2px solid #FF4081;
 }
 
 .div-text-button{
     flex-direction: column;
+    border: 2px solid green;
+
 }
 
 .div-text h1{
@@ -37,13 +40,16 @@ color: #555555;
 }
 /* ============================================================================================ */
 
-.div-button li{
-    width: 60%;
+/* .div-button li{
+    
+} */
+.btn_section-1{
+width: 60%;
     left: 0;
      text-decoration: none;
 
-    border: #FF4081 solid 2px;
-    border-radius: 20px;
+    
+    
     padding: 10px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -52,6 +58,8 @@ color: #555555;
     text-align: center;
     list-style: none;
 }
+
+
 .div-button a{
     
     line-height: 23px;
@@ -60,11 +68,10 @@ color: #555555;
 .div-button button{
    background: #FFFFFF;
 
-   /* background: #F6F6F6; */
-;
     color: #FF4081;
-    border: 0px;
     font-size: 20px;
+    border: #FF4081 solid 2px;
+    /* border-radius: 20px; */
 
 }
 
@@ -284,7 +291,21 @@ line-height: 31px;
 color: #009688;
 
 }
-
+.btn_section-3{
+    width: 60%;
+        left: 0;
+         text-decoration: none;
+    
+        
+        
+        padding: 10px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    
+      
+        text-align: center;
+        list-style: none;
+    }
 .post-mais{
     width: 100%;
     background: #F6F6F6;
@@ -292,12 +313,14 @@ color: #009688;
     padding-bottom: 2%;
 }
 
-    .div-button-mais li{
+    /* .button-mais li{
         width: 235px;
         
+        */
        
-       
-         text-decoration: none;
+         
+    .btn-mais button{
+      text-decoration: none;
     
         border: #FF4081 solid 2px;
         border-radius: 20px;
@@ -307,6 +330,7 @@ color: #009688;
       
         text-align: center;
         list-style: none;
+      
     }
     .post-mais a{
         
@@ -317,7 +341,7 @@ color: #009688;
        /* background: #FFFFFF; */
     
        background: #F6F6F6;
-    ;
+    
         color: #FF4081;
         border: 0px;
         font-size: 20px;
@@ -365,10 +389,11 @@ color: #009688;
     align-items: center;
     align-self: center;
 }
-
-    button{
-        min-width: 250px;
-    }
+.div-text-button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
 }
 
-
+}
