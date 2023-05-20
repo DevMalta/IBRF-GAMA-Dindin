@@ -77,10 +77,23 @@ padding-bottom: 1%;
        align-items: center;
        justify-content: center;
        justify-self: center;
-
+       /* padding-bottom: 145px; */
+     
     }
 
     .nav-acesso{
         margin: 0;
+        padding-right: 0% !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .footer {
+        min-width: 250px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        padding-bottom: 145px;
     }
 }
