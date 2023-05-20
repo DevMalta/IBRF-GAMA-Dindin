@@ -1,0 +1,86 @@
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background: #419488;
+    color: #FFFFFF;
+    font-family: 'Ubunto';
+    
+    padding-bottom: 73px;
+    padding-top: 5%;
+    padding-top: 2%;
+    
+}
+
+.logo-footer{
+padding-left: 1%;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+
+.list-footer{
+    font-style: normal;
+    list-style: none;
+    text-align: left;
+}
+
+.list-footer li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.logo-nav{
+    display: contents;
+    justify-content: space-around;
+
+}
+
+.nav-acesso{
+    padding-right: 5%;
+}
+
+.nav-acesso li{
+     text-decoration: none;
+
+    border: #FFFFFF solid 2px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+  
+    text-align: center;
+    list-style: none;
+}
+.nav-acesso a{
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+.nav-acesso button{
+   background-color: #419488;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+   
+    .footer {
+       min-width: 250px;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       justify-self: center;
+
+    }
+
+    .nav-acesso{
+        margin: 0;
+    }
+}

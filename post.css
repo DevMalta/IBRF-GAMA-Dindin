@@ -1,0 +1,217 @@
+/*=====================================================================================================*/
+
+
+
+.section-1 {
+    position: relative;
+width: auto;
+height: 100%;
+top: 111px;
+align-items: center;
+padding-left: 10%;
+padding-right: 10%;
+background: #FFFFFF;
+}
+
+
+h1, h3, h6{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    text-align: center;
+
+}
+
+h1{
+
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+    }
+
+h2{
+    color:#419488;
+    font-size: 30px;
+}
+h3{
+    color: #FF4081;    
+font-size: 25px;
+font-weight: 700;
+line-height: 20px;
+}
+
+h6{
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+
+
+color: #9D9D9D;
+}
+
+.foto-post{
+position: relative;
+width: 100%;
+height: 460px;
+background-color: #C4C4C4;
+;
+
+}
+.foto-post img{
+    width: auto;
+    height: auto;
+}
+
+
+.Texto-principal p{
+/* On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. 
+These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. 
+
+In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. 
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+font-feature-settings: 'kern' off;
+display: flex;
+
+color: #000000;
+
+}
+.titulo-2{
+    position: relative;
+    /* width: 80%; */
+    height: auto;
+    top: 50px;
+    align-items: center;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+    margin: 0%;
+    padding-top: 50px;
+        
+    background: #F6F6F6;
+}
+
+
+
+
+.section-2{
+    position: relative;
+    display: flex;
+/* width: 80%; */
+height: auto;
+top: 50px;
+align-items: center;
+/* padding-left: 10%; */
+/* padding-right: 10%; */
+padding-bottom: 5%;
+margin: 0%;
+padding-top: 50px;
+justify-content: space-between;
+/* margin-bottom: 5%; */
+
+
+background: #F6F6F6;
+
+}
+.section-2 h1{
+width: 100%;
+} 
+
+.section-2 p{
+    align-items: center;
+    text-align: center;
+}
+/* ------------------------------------------------------------------------------------------------- */
+.Anexo-1{
+    margin-top: 150px;
+    max-width: 350px;
+    height: auto;
+    
+    
+    
+    position: relative;
+    bottom: 0;
+    
+    margin-top: 0;
+    margin-right: 0;
+    
+    padding-top: 5%;
+    
+    
+    }
+    
+    .Imagem-1 img{
+        position: relative;
+    
+    width: 250px;
+    padding-left: 10%;
+    
+    height: 275px;
+    align-items: center;
+    top: 0;
+    margin-bottom: 20%;
+    }
+    
+    .Titulo-especial-1 {
+         position: relative;
+    
+    color: #FF4081;
+    }
+    
+    .Text-description-1 p{
+    position: relative;
+    
+    line-height: 20px;
+    text-align:center;
+    width: 100%;
+    
+    
+    color: #000000;
+  
+    }
+    
+    .section-2 button {
+       
+        position: relative;
+        border-radius: 62px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px; 
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF; 
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+           
+        
+        background: #FF4081;
+    }
+    
+    
+    
+    @media screen and (max-width: 1000px){
+        /* * {
+            min-width: 250px;
+           
+        } */
+        .section-2{
+            min-width: 250px;
+            flex-direction: column;
+         
+          
+        }
+        button{
+            min-width: 250px;
+        }
+    }
