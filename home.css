@@ -12,12 +12,12 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
-  border: 2px solid #ff4081;
+
 }
 
 .div-text-button {
   flex-direction: column;
-  border: 2px solid green;
+
 }
 
 .div-text h1 {
@@ -42,7 +42,7 @@
     
 } */
 .btn_section-1 {
-  width: 60%;
+  /* width: 60%; */
   left: 0;
   text-decoration: none;
 
@@ -64,7 +64,7 @@
   color: #ff4081;
   font-size: 20px;
   border: #ff4081 solid 2px;
-  /* border-radius: 20px; */
+  border-radius: 20px;
 }
 
 .ilustra-banner {
@@ -270,9 +270,19 @@
 
   color: #009688;
 }
+
+.section-3{
+  align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    background: #f6f6f6;
+}
+
+
 .btn_section-3 {
-  width: 60%;
-  left: 0;
+  /* width: 60%; */
+  /* left: 0; */
   text-decoration: none;
 
   padding: 10px;
@@ -281,42 +291,24 @@
 
   text-align: center;
   list-style: none;
+
+ 
 }
-.post-mais {
-  width: 100%;
-  background: #f6f6f6;
-  align-items: center;
-  padding-bottom: 2%;
-}
-
-/* .button-mais li{
-        width: 235px;
-        
-        */
-
-.btn-mais button {
-  text-decoration: none;
-
-  border: #ff4081 solid 2px;
-  border-radius: 20px;
-  padding: 10px;
-
-  text-align: center;
-  list-style: none;
-}
-.post-mais a {
+.div-button-3 a {
   line-height: 23px;
   text-align: center;
 }
-.post-mais button {
-  /* background: #FFFFFF; */
 
+.div-button-3 button {
   background: #f6f6f6;
 
   color: #ff4081;
-  border: 0px;
-  font-size: 20px;
+  font-size: 30px;
+  border: #ff4081 solid 2px;
+  border-radius: 20px;
 }
+
+
 
 /* ============================================================================================================== */
 
@@ -365,4 +357,6 @@
     text-align: center;
     justify-self: center;
   }
+
+  
 }
