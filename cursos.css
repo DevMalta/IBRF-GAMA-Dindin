@@ -1,0 +1,147 @@
+.titulo {
+  padding-left: 4%;
+  margin: 40px 0 60px 0;
+  flex-direction: row;
+  text-align: left;
+}  
+  
+h1{
+  font-size: 60px;
+  color: #FF4081;
+}
+
+h2{
+  /* Educação financeira é tudo de bom  */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #555555;
+}
+
+.cursos {
+  padding: 10px;
+  width: auto;
+  display: flex;
+  justify-content: center !important;
+
+  }
+
+.cursos img{
+    width: 100%;
+}
+
+#img {
+  max-width: 400px;
+  }
+
+p, h3 {
+  margin-bottom: 50px;
+}
+
+p{
+  margin-top: 0;
+  font-size: 18px;
+  font-family: 'Ubuntu';
+  max-width: 1000px;
+  line-height: 25px;
+  margin: 0;
+  margin-bottom: 50px;
+padding-right: 10px;
+}
+
+#sub_titulo{
+  /* Investimento para iniciantes */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #FF4081;
+}
+
+.bt button {
+  width: 233px;
+  height: 51px;
+  background: #419488;
+  border-radius: 62px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  align-self: center !important;
+}
+
+.bt {
+  display: flex;
+  
+}
+  
+hr {
+  /* linha */
+  margin: 8% 0 8% 6.5%;
+  width: 86%;
+  text-align: center;
+  height: 7px;
+  background: #C4C4C4;
+}
+
+@media only screen and (max-width: 1000px){
+/* inicio do titulo */
+    .titulo{
+      align-items: center;
+    }
+
+    h2{
+      min-width: 340px;
+    }
+/* fim do titulo */
+
+/* inicio das section curso */
+    .cursos{
+    min-width: 340px;
+    display: flex;
+    flex: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    }
+
+    .cursos button{
+      display: flex;
+      align-items: center !important;
+      justify-content: center;
+     
+
+    }
+    .bt{
+      width: auto;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      flex: center;
+      align-self: center;
+    }
+
+    button{
+      align-items: center;
+    }
+    h3, p {
+      text-align: center;
+    }
+
+    p{
+      white-space: normal;
+    }
+
+    #img{
+      max-height: 400px;
+    }
+  }
+/* fim das section curso */
+
+/* inicio da linha */
+    hr{
+      min-width: 300px;
+    }
+/* fim da linha*/
