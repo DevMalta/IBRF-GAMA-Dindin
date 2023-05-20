@@ -1,59 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./contato.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./contato.css" />
+    <link rel="stylesheet" href="header.css" />
     <title>Contato</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+          <a href="index.html">
+            <img src="dindin-imagens/logo-header.png" alt="logo-header" />
+          </a>
+        </div>
+        <!-- NAVEGAÇÃO MENU -->
+        <ul class="nav-links">
+          <!-- CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVEGAÇÃO MENUS -->
+          <div class="menu">
+            <li><a href="cursos.html">CURSOS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
 
-    <header></header>
     <main>
+      <h1 class="contact">Contato</h1>
 
+      <section>
+        <div class="contact-input">
+          <input type="text" name="nome" placeholder="Nome" required />
+          <input type="email" name="email" placeholder="E-mail" required />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Mensagem"
+          ></textarea>
 
-        <h1 class="contact">Contato</h1>
+          <button type="submit">Entrar</button>
+        </div>
 
-
-        <section>
-
-
-
-            <div class="contact-input">
-
-
-                <input type="text" name="nome" placeholder="Nome" required>
-                <input type="email" name="email" placeholder="E-mail" required>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
-
-                <button type="submit">Entrar</button>
-
-            </div>
-
-
-
-
-
-
-            <div class="contact-img">
-
-                <img src="dindin-imagens/ilustra-contato.png">
-
-            </div>
-
-        </section>
-
+        <div class="contact-img">
+          <img src="dindin-imagens/ilustra-contato.png" />
+        </div>
+      </section>
     </main>
     <footer></footer>
-</body>
-
+  </body>
 </html>
