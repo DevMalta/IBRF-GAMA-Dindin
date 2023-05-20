@@ -1,117 +1,121 @@
-                                                /* UTILIDADES */
+/* UTILIDADES */
 * {
-    padding: 0;
-    /* box-sizing: border-box; */
-   }
-
-header{
-    width: 100%;
+  padding: 0;
+  /* box-sizing: border-box; */
 }
 
-   body {
-    font-family: 'Ubuntu';
-   }
-   a {
-    text-decoration: none;
-   }
-   li {
-    list-style: none;
-   }
+header {
+  width: 100%;
+}
 
-                                                /* NAVBAR ESTILO */
+body {
+  font-family: "Ubuntu";
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* NAVBAR ESTILO */
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #2E948A;
-    color: #FFFFFF;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-   }
-   .nav-links a {
-    color: #FFFFFF;
-   }
-   /* LOGO */
-   .logo {
-    font-size: 32px;                        /*Preciso observar*/
-   }
-   /* NAVBAR MENU */
-   .menu {
-    display: flex;
-    gap: 1em;
-    font-size: 20px;
-   }
-   .menu li:hover {
-    background-color: #2E948A;
-    border-radius: 5px;
-    transition: 0.3s ease;
-   }
-   .menu li {
-    padding: 5px 14px;
-   }
-   /* MENU SUSPENSO */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2e948a;
+  color: #ffffff;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+.nav-links a {
+  color: #ffffff;
+}
+.nav-links a:hover {
+  color: #ff4081;
+  text-decoration: underline;
+}
+/* LOGO */
+.logo {
+  font-size: 32px; /*Preciso observar*/
+}
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 20px;
+}
+.menu li:hover {
+  background-color: #2e948a;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 14px;
+}
+/* MENU SUSPENSO */
 
-   .dropdown {
-    background-color: #2E948A;
-    padding: 1em 0;
-    position: absolute;
-    display: none;
-    border-radius: 8px;
-    top: 35px;
-   }
-   .dropdown li + li {
-    margin-top: 10px;
-   }
-   .dropdown li {
-    padding: 0.5em 1em;
-    width: 8em;
-    text-align: center;
-   }
-   .dropdown li:hover {
-    background-color: #2E948A;
-   }
-                                        /* NAVBAR MENU RESPONSIVA*/
+.dropdown {
+  background-color: #2e948a;
+  padding: 1em 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+.dropdown li + li {
+  margin-top: 10px;
+}
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+.dropdown li:hover {
+  background-color: #2e948a;
+}
+/* NAVBAR MENU RESPONSIVA*/
 /* CHECKBOX HACK */
-input[type=checkbox]{
+input[type="checkbox"] {
+  display: none;
+}
+/*HAMBURGER MENU*/
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+/* APLICAÇÃO MEDIA QUERIES */
+@media (max-width: 775px) {
+  .menu {
     display: none;
-   } 
-   /*HAMBURGER MENU*/
-   .hamburger {
-    display: none;
-    font-size: 24px;
-    user-select: none;
-   }
-   /* APLICAÇÃO MEDIA QUERIES */
-   @media (max-width: 775px) {
-   .menu { 
-    display:none;
     position: absolute;
-    background-color:#2E948A;
+    background-color: #2e948a;
     right: 0;
     left: 0;
     text-align: center;
     padding: 16px 0;
-   }
-   .menu li:hover {
+  }
+  .menu li:hover {
     display: inline-block;
-    background-color:#2E948A;
+    background-color: #2e948a;
     transition: 0.3s ease;
-   }
-   .menu li + li {
+  }
+  .menu li + li {
     margin-top: 12px;
-   }
-   input[type=checkbox]:checked ~ .menu{
+  }
+  input[type="checkbox"]:checked ~ .menu {
     display: block;
-   }
-   .hamburger {
+  }
+  .hamburger {
     display: block;
-   }
-   .dropdown {
+  }
+  .dropdown {
     left: 50%;
     top: 30px;
     transform: translateX(35%);
-   }
-   .dropdown li:hover {
-    background-color: #2E948A;
-   }
-   }
+  }
+  .dropdown li:hover {
+    background-color: #2e948a;
+  }
+}
