@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="header.css"/>
+    <link rel="stylesheet" href="footer.css"/>
     <title>Blog</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+          <!-- LOGO -->
+  <div class="logo">
+    <a href="index.html">
+    <img src="dindin-imagens/logo-header.png" alt="logo-header">
+    </a>
+  </div>
+          <!-- NAVEGAÇÃO MENU -->
+  <ul class="nav-links">
+          <!-- CHECKBOX HACK -->
+    <input type="checkbox" id="checkbox_toggle" />
+    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVEGAÇÃO MENUS -->
+    <div class="menu">
+      <li><a href="cursos.html">CURSOS</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="contato.html">CONTATO</a></li>
+    </div>
+  </ul>
+</nav>
+</header>
     <section class="titulo-blog">
         <div id="texto-titulo">
             <h1>MAIS CONTEÚDO PARA VOCÊ</h1>
@@ -17,7 +41,7 @@
                 eaque repellendus odit perspiciatis minima natus quae.
             </p>
         </div>
-        <img src="Imagen-blog/ilustra-blog.png" alt="logo-blog" id="logo-blog">
+        <img src="./dindin-imagens/ilustra-blog.png" alt="logo-blog" id="logo-blog">
     </section>
     <section class="corpo-blog">
         <div class="post-blog">
@@ -82,5 +106,33 @@
             </div>
         <div>
     </section>
+
+    <footer>
+        <section class="footer">
+          <div class="logo-nav">
+            <div class="logo-footer">
+            <a href="index.html">
+              <img src="dindin-imagens/logo-footer.png" alt="logo-footer" id="logo-footer">
+            </a>
+            </div>
+            <div class="buttons-footer">
+              <ul class="list-footer">
+                <li><a href="cursos.html">CURSOS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+              </ul>
+            </div>
+          </div>      
+      
+          <div class="nav-acesso">
+            <ul class="acesso-btn">
+              <li><a href="contato.html" title="Acesse aqui" target="_self"><button class="btn_footer">Quero ser um professor</button></a>
+              </li>
+              <li><a href="blog.html" title="Acesse aqui" target="_self"><button class="btn_footer">Acesse alguns conteúdos</button></a>
+              </li>
+            </ul>  
+          </div>
+          </section>      
+        </footer>
 </body>
 </html>
