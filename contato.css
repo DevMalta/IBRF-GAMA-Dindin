@@ -135,6 +135,9 @@ button:hover {
     padding-left: 10%;
     margin: 0%;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
   }
 
   #contact-img2 {
