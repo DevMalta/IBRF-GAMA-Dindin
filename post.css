@@ -13,7 +13,9 @@ padding-right: 10%;
 background: #FFFFFF;
 }
 
-
+button{
+    cursor: pointer;
+}
 h1, h3, h6{
     font-family: 'Ubuntu';
     font-style: normal;
@@ -140,6 +142,7 @@ width: 100%;
     
     
     }
+
     
     .Imagem-1 img{
         position: relative;
