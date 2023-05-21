@@ -28,7 +28,8 @@ h2{
   }
 
 .text {
-  padding-right: 5% ;
+  padding-right: 5%;
+  padding-left: 3%;
 }
 
 .cursos img{
@@ -62,6 +63,7 @@ padding-right: 10px;
   font-size: 35px;
   line-height: 40px;
   color: #FF4081;
+  /* padding-left: 3%; */
 }
 
 .bt button {
@@ -154,6 +156,9 @@ hr {
 
     #img{
       max-height: 400px;
+    }
+    .text p{
+      padding-right: 0%;
     }
   }
 /* fim das section curso */
