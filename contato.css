@@ -1,8 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
   width: auto;
-  font-family: "Ubuntu";
+  /* font-family: "Ubuntu"; */
 }
 /* NAVBAR ESTILO */
 .navbar {
@@ -62,61 +60,93 @@
   text-decoration: none;
 }
 
+.iten-page-contato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  
+}
 .contact {
-  margin: 20px;
+  padding: 1%;
+  margin-top: 5%;
+  margin-bottom: 3%;
   color: #ff4081;
+  font-size: 30px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  margin-left: 70px;
-}
-
-section {
-  display: flex;
 }
 
 .contact-input {
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-left: 10%;
 }
 
 input {
-  width: 80%;
-  margin: 15px;
-  padding: 10px;
+  width: 75%;
+  margin: 1%;
+  padding: 2%;
   font-size: 14px;
   border-radius: 5px;
 }
 
-textarea {
-  width: 80%;
-  margin: 15px;
+#menssage-envio {
+  width: 79%;
+  margin: 1%;
   font-size: 14px;
   border-radius: 5px;
 }
 
-.contact-img {
-  width: 50%;
-  justify-content: center;
+#contact-img2 {
+  width: 90%;
+  margin-right: 10%;
 }
 
-button {
+#button-contato-enviar {
   font-family: "Nunito", sans-serif;
-  margin-right: 450px;
-  width: 150px;
+  max-width: 20%;
   background-color: #ff4081;
   color: white;
-  justify-content: left;
   text-align: center;
   border-radius: 50px;
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 2%;
 }
 
 button:hover {
   background-color: white;
   color: #ff4081;
 }
+
+@media only screen and (max-width: 1000px) {
+
+  .iten-page-contato {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .contact-input {
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin: 0%;
+    align-items: center;
+  }
+
+  #contact-img2 {
+    width: 80%;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin: 0%;
+  }
+
+  #button-contato-enviar {
+    min-width: 100px;
+  }
+}
+
