@@ -11,7 +11,7 @@
 * [Devs](#devs)
 * [Orientador](#orientador)
 * [Sobre](#sobre-o-projeto)
-* [Inicio](#inicio)
+* [Início](#início)
 * [Cursos](#cursos)
 * [Curso](#curso)
 * [Contato](#contato)
