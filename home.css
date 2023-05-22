@@ -54,6 +54,11 @@
   list-style: none;
 }
 
+.btn_section-1:hover {
+  background-color: #ff4081;
+  color: white;
+}
+
 .div-button a {
   line-height: 23px;
   text-align: center;
@@ -112,6 +117,11 @@
 .section-2 p {
   align-items: center;
   text-align: center;
+}
+
+.btn_especial_titulo:hover {
+  background-color: white;
+  color: #ff4081;
 }
 /* ------------------------------------------------------------------------------------------------- */
 .Anexo-1 {
@@ -293,6 +303,11 @@
   list-style: none;
 
  
+}
+
+.btn_section-3:hover {
+  background-color: #ff4081;
+  color: white;
 }
 .div-button-3 a {
   line-height: 23px;

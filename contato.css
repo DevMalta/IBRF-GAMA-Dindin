@@ -92,6 +92,8 @@ input {
   border-radius: 5px;
 }
 
+
+
 #menssage-envio {
   width: 79%;
   margin: 1%;
@@ -117,7 +119,7 @@ input {
   margin-top: 2%;
 }
 
-button:hover {
+#button-contato-enviar:hover {
   background-color: white;
   color: #ff4081;
 }

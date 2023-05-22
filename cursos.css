@@ -80,6 +80,12 @@ padding-right: 10px;
   align-self: center !important;
 }
 
+.open-modal-button:hover {
+  background-color: white;
+  color: #419488;
+
+}
+
 .bt {
   display: flex;
   
@@ -166,5 +172,8 @@ hr {
 /* inicio da linha */
     hr{
       min-width: 300px;
+
     }
+
+
 /* fim da linha*/
