@@ -25,7 +25,6 @@
   <tr>
     <th>HTML</th>
     <th>CSS</th>
-    <th>Javascript</th>
   </tr>
 </table>
 
