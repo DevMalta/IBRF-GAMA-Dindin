@@ -1,57 +1,102 @@
-# Título do Projeto
+# DINDIN - EDUCAÇÃO FINANCEIRA
 
+![77a4b7e5-ba10-4114-a08a-8d0163324695](https://github.com/Matheusmalta1/IBRF-GAMA-Dindin/assets/93922338/7db18594-9df6-4ca6-94f8-0cbb8849b708)
 
-![Capa do Projeto](https://picsum.photos/850/280)
-
-# Sobre o Projeto
-
-Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
-
-<h4 align="center"> 
-	🚧  Em desenvolvimento . . .
-</h4>
 
 # Índice/Sumário
 
-* [Sobre](#sobre-o-projeto)
+
 * [Sumário](#índice/sumário)
-* [Requisitos Funcionais](#requisitos-funcionais)
 * [Tecnologias Usadas](#tecnologias-usadas)
-* [Contribuição](#contribuição)
-* [Autores](#autores)
-* [Licença](#licença)
-* [Agradecimentos](#agradecimentos)
+* [Devs](#devs)
+* [Orientador](#orientador)
+* [Sobre](#sobre-o-projeto)
+* [Inicio](#inicio)
+* [Cursos](#cursos)
+* [Curso](#curso)
+* [Contato](#contato)
+* [Blog](#blog)
+* [Post](#post)
 
-
-# Requisitos Funcionais 
-
-- [x] **Cadastrar Usuário**
-- [x] **Fazer Login**
-- [ ] Matricular em Curso
-- [ ] Cancelar Matricula
-- [ ] Visualizar Notas
-- [ ] Visualizar e Atualizar Informações do Estudante
 
 # Tecnologias Usadas
 
-- [Flutter](https://flutter.dev/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+<table>
+  <tr>
+    <th>HTML</th>
+    <th>CSS</th>
+    <th>Javascript</th>
+  </tr>
+</table>
 
-# Contribuição
+# Devs
 
-Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o nosso código de conduta e o processo de envio de solicitações *pull* (*Pull Request*) para nós.
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Github</th>
+  </tr>
+  <tr>
+    <td>Alex Bernardino</td>
+    <td>https://github.com/alebernardino</td>
+  </tr>
+  <tr>
+    <td>Fábio Freitas</td>
+    <td>https://github.com/FreitasNovoHumano</td>
+  </tr>
+  <tr>
+    <td>Hugo Moura</td>
+    <td>https://github.com/hugoeamoura</td>
+  </tr>
+  <tr>
+    <td>Icaro Nascimento</td>
+    <td>https://github.com/icaronascimento-git</td>
+  </tr>
+  <tr>
+    <td>Marcello-Gomes</td>
+    <td>https://github.com/Marcello-Gomes</td>
+  </tr>
+  <tr>
+    <td>Matheus Malta</td>
+    <td>https://github.com/Matheusmalta1</td>
+  </tr>
+</table>
 
-# Autores
+# Orientador
 
-[Exemplo](https://github.com/testing-library/react-testing-library#contributors)
+<table>
+  <tr>
+    <th>Professor Cláudio Rapôso </th>
+  </tr>
+  <tr>
+    <td>https://github.com/engcfraposo</td>
+  </tr>
+</table>
 
-# Licença
+# Sobre o Projeto
 
-Este projeto está licenciado sob a Licença MIT,  consulte o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+Este projeto é um site de educação financeira desenvolvido no final da etapa de front end do curso da Gama Academy e oferecido pela empresa IBRF. O site desenvolvido tem seis telas diferentes e todas elas são responsivas se adaptando da melhor forma ao aparelho usado para as acessar:
 
-# Agradecimentos
+# Início
 
-Seção livre para você agradecer a todos que contribuiram para a execução do seu projeto.
+Página responsável pela apresentação do site e seus conteudos.
+
+# Cursos
+
+Página onde são elencados os cursos oferecidos no site e descreve com detalhes cada um.
+
+# Curso
+
+Área de acesso a cada um dos 3 cursos disponíveis no site.
+
+# Contato
+
+Página onde o usuário irá encontrar formas de entrar em contato com a equipe e tirar duvidas ou fazer pedidos.
+
+# Blog
+
+Página onde são expostos artigos e conteúdos informativos sobre educação financeira.
+
+# Post
+
+Área de acesso a determinada notícia do Blog.
